@@ -9,11 +9,12 @@ DATA = "data"
 UPDATE_TRACK = "update_track"
 
 # Platforms
+BINARY_SENSOR = "binary_sensor"
 CLIMATE = "climate"
 SENSOR = "sensor"
 SWITCH = "switch"
 NUMBER = "number"
-PLATFORMS = [CLIMATE, SENSOR, SWITCH, NUMBER]
+PLATFORMS = [BINARY_SENSOR, CLIMATE, SENSOR, SWITCH, NUMBER]
 
 # Types
 SUPPORT_PRESET = [PRESET_AWAY, PRESET_HOME]
