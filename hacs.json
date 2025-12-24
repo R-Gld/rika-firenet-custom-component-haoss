@@ -2,8 +2,11 @@
     "name": "Rika Firenet",
     "hacs": "0.24.0",
     "domains": [
+        "binary_sensor",
         "climate",
-        "sensor"
+        "sensor",
+        "switch",
+        "number"
     ],
     "iot_class": "Cloud Polling",
     "homeassistant": "0.115.0"

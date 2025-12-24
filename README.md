@@ -1,13 +1,24 @@
 # Rika Firenet
 
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
+[![GitHub Release](https://img.shields.io/github/release/fockaert/rika-firenet-custom-component.svg)](https://github.com/fockaert/rika-firenet-custom-component/releases)
+[![License](https://img.shields.io/github/license/fockaert/rika-firenet-custom-component.svg)](LICENSE)
+[![GitHub Issues](https://img.shields.io/github/issues/fockaert/rika-firenet-custom-component.svg)](https://github.com/fockaert/rika-firenet-custom-component/issues)
+
 _Component to integrate with Rika Firenet [rikafirenet]._
 
-**This component will set up the following platforms.**
+Home Assistant custom component to control and monitor Rika pellet stoves through the Rika Firenet cloud service.
+
+## Features
+
+**This component will set up the following platforms:**
 
 Platform | Description
 -- | --
-`climate` | ...
-`sensor` | ...
+`climate` | Control stove temperature, HVAC modes (OFF/HEAT/AUTO), and preset modes (HOME/AWAY)
+`sensor` | Monitor stove consumption, runtime, temperatures, status, and power levels
+`switch` | Control stove on/off state and convection fans
+`number` | Adjust heating power, fan levels, and room power request
 
 ## Planning
 * Add readme example graphs possible
