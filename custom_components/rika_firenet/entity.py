@@ -45,8 +45,10 @@ class RikaFirenetEntity(CoordinatorEntity):
     @property
     def device_info(self):
         return {
-            "identifiers": {(DOMAIN, self.unique_id)},
-            "name": NAME,
-            "model": VERSION,
-            "manufacturer": DEFAULT_NAME,
+            "identifiers": {(DOMAIN, self._stove.get_id())},
+            "name": self._stove.get_name(),
+            "manufacturer": "RIKA",
+            "model": "Firenet Connected Stove",
+            "sw_version": VERSION,
+            "configuration_url": "https://www.rika-firenet.com",
         }
